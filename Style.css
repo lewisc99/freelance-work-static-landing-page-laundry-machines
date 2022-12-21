@@ -51,12 +51,14 @@ ul {
   
 }
 
-a {
-    text-decoration: none;
+ul.home-items a {
     font-size: 1.3vmax;
     color: white;
 }
 
+ul.home-items a {
+    text-decoration: none;
+}
 
 main {
     display: flex;
@@ -67,8 +69,46 @@ div.row.row-image-slide {
     display: flex;
     width: 100%;
     height:90vh;
-    background-color: wheat;
+    background-color: rgb(59, 59, 59);
     align-items: center;
     justify-content: center;
 }
 
+div.col-image-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+div.col-image-slide > h1 {
+    font-size: 3.5vw;
+    margin-bottom: 2%;
+}
+
+div.col-image-slide > p {
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+
+div.col-image-slide > button {
+    font-weight: bold;
+    margin-top: 4%;
+    border-radius: 15px;
+    width: 9.3%;
+    height:  3.5vmax;
+    background-color: rgb(89, 150, 230);
+    border: none;
+    cursor: pointer;
+    font-size: 0.8vw;
+    color: white;
+}
+
+div.col-image-slide > button:hover {
+    background-color: rgb(77, 111, 154);
+    transition: 0.4s;
+}
