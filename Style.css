@@ -20,7 +20,7 @@ nav {
     display: flex;
     width: 100%;
     height: 7vh;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 div.brand {
@@ -34,7 +34,7 @@ div.brand {
 a.brand-name {
     font-size: 1.5vmax;
     text-decoration: none;
-    color: rgb(99, 99, 247);
+    color: rgb(58, 176, 230);
 }
 
 
@@ -51,9 +51,15 @@ ul {
   
 }
 
+
 ul.home-items a {
     font-size: 1.3vmax;
-    color: white;
+    color: rgb(21, 21, 21);
+}
+
+
+ul.home-items a:hover {
+    color: rgb(58, 176, 230);
 }
 
 ul.home-items a {
@@ -62,6 +68,8 @@ ul.home-items a {
 
 main {
     display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 
@@ -98,7 +106,7 @@ div.col-image-slide > p {
 div.col-image-slide > button {
     font-weight: bold;
     margin-top: 4%;
-    border-radius: 15px;
+    border-radius: 30px;
     width: 9.3%;
     height:  3.5vmax;
     background-color: rgb(89, 150, 230);
@@ -111,4 +119,79 @@ div.col-image-slide > button {
 div.col-image-slide > button:hover {
     background-color: rgb(77, 111, 154);
     transition: 0.4s;
+}
+
+
+
+div.row-provided-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(224, 224, 224);
+}
+
+div.col-provided-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+    width: inherit;
+    color: rgb(20, 20, 20);
+}
+
+div.provided-services-title {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.provided-services-title  > h1{
+    font-size: 2.2vmax;
+}
+
+div.provided-services-title  > i{
+    border: 1px solid rgb(89, 150, 230);
+    width: 5%;
+}
+
+div.provided-services-items {
+    display: flex;
+    flex-direction: row;
+    width: 78%;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+
+div.provided-services.item {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.2%;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    padding: 5%;
+}
+
+div.provided-services.item > h1 {
+    font-size: 1.3vmax;
+    margin-bottom: 10%;
+}
+div.provided-services.item > p {
+    font-size: 0.8vmax;
+    color: rgb(40, 40, 40);
 }
