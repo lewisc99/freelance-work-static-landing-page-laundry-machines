@@ -13,8 +13,6 @@ div.container {
     display: flex;
     width: 100%;
     flex-direction: column;
-    height:100%;
-
 }
 
 
@@ -317,11 +315,7 @@ a.designed-by:hover {
 }
 
 
- @media screen 
- and (max-device-width: 2000px) 
- { 
-      div.container {
-          min-width: 1000px;
-      }
-}
+/* if the screen is larger like a tv the px will be larger like 4000px if the screen is small like a cel-phone the screen will be lower
+so basically if you add a zoom using a pc it's like changing the pc view to a cel phone view because the px will be lowerred */
+
 
