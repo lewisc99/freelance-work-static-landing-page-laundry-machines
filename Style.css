@@ -317,5 +317,533 @@ a.designed-by:hover {
 
 /* if the screen is larger like a tv the px will be larger like 4000px if the screen is small like a cel-phone the screen will be lower
 so basically if you add a zoom using a pc it's like changing the pc view to a cel phone view because the px will be lowerred */
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    div.brand {
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type:  none;
+    }
+
+    ul.home-items a {
+        font-size: 1.7vmax;
+        color: rgb(21, 21, 21);
+    }
+    
+    div.row.row-image-slide {
+        display: flex;
+        width: 100%;
+        height:75vh;
+        background-color: rgb(59, 59, 59);
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.col-image-slide > h1 {
+        font-size: 5.0vw;
+        margin-bottom: 2%;
+    }
+    
+    div.col-image-slide > p {
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+    
+    
+    div.col-image-slide > button {
+        font-weight: bold;
+        margin-top: 4%;
+        border-radius: 30px;
+        width: 20.3%;
+        height:  3.5vmax;
+        background-color: rgb(89, 150, 230);
+        border: none;
+        cursor: pointer;
+        font-size: 0.8vw;
+        color: white;
+    }
+
+
+    
+
+    div.row-provided-services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50vh;
+        background-color: rgb(240, 240, 240);
+    }
+
+    div.col-provided-services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 60%;
+        width: inherit;
+        color: rgb(20, 20, 20);
+    }
+
+
+    div.provided-services-items {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    }
+
+    div.provided-services.item {
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0.5%;
+        background-color: rgb(255, 255, 255);
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+        padding: 5%;
+    }
+        
+    div.provided-services.item > h1 {
+        font-size: 1.5vmax;
+        margin-bottom: 10%;
+    }
+    div.provided-services.item > p {
+        font-size: 0.9vmax;
+        color: rgb(40, 40, 40);
+    }
+
+
+    
+div.row-contacts-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 34vh;
+    background-color: rgb(238, 246, 248);
+    color: rgb(27, 27, 27);
+}
+div.col-contact-us {
+    display: flex;
+    width: inherit;
+    height: 70%;
+    flex-direction: column;
+    align-items: inherit;
+    justify-self: inherit;
+}
+
+div.contacts-us-items {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+div.contacts-us > h1 {
+    height: 30%;
+    font-size: 2.5vw;
+}
+
+div.contacts-us > p {
+   color: rgb(78, 78, 78);
+   font-size: 1.6vw;
+}
+
+a.link-images {
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+
+a.link-images:hover {
+   transform: translateY(2px);
+   transition: 0.6s;
+  
+}
+
+img.contacts-logo {
+    width: 50%;
+    height: 90%;
+}
+
+  }
+
+
+
+ @media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    div.brand {
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type:  none;
+    }
+
+    ul.home-items a {
+        font-size: 1.7vmax;
+        color: rgb(21, 21, 21);
+    }
+    
+    div.row.row-image-slide {
+        display: flex;
+        width: 100%;
+        height:75vh;
+        background-color: rgb(59, 59, 59);
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.col-image-slide > h1 {
+        font-size: 5.0vw;
+        margin-bottom: 2%;
+    }
+    
+    div.col-image-slide > p {
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+    
+    
+    div.col-image-slide > button {
+        font-weight: bold;
+        margin-top: 4%;
+        border-radius: 30px;
+        width: 20.3%;
+        height:  3.5vmax;
+        background-color: rgb(89, 150, 230);
+        border: none;
+        cursor: pointer;
+        font-size: 0.8vw;
+        color: white;
+    }
+
+
+    
+
+    div.row-provided-services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50vh;
+        background-color: rgb(240, 240, 240);
+    }
+
+    div.col-provided-services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 60%;
+        width: inherit;
+        color: rgb(20, 20, 20);
+    }
+
+
+    div.provided-services-items {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    }
+
+    div.provided-services.item {
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0.5%;
+        background-color: rgb(255, 255, 255);
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+        padding: 5%;
+    }
+        
+    div.provided-services.item > h1 {
+        font-size: 1.5vmax;
+        margin-bottom: 10%;
+    }
+    div.provided-services.item > p {
+        font-size: 0.9vmax;
+        color: rgb(40, 40, 40);
+    }
+
+
+    
+div.row-contacts-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 34vh;
+    background-color: rgb(238, 246, 248);
+    color: rgb(27, 27, 27);
+}
+div.col-contact-us {
+    display: flex;
+    width: inherit;
+    height: 70%;
+    flex-direction: column;
+    align-items: inherit;
+    justify-self: inherit;
+}
+
+div.contacts-us-items {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+div.contacts-us > h1 {
+    height: 30%;
+    font-size: 2.5vw;
+}
+
+div.contacts-us > p {
+   color: rgb(78, 78, 78);
+   font-size: 1.6vw;
+}
+
+a.link-images {
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+
+a.link-images:hover {
+   transform: translateY(2px);
+   transition: 0.6s;
+  
+}
+
+img.contacts-logo {
+    width: 50%;
+    height: 90%;
+}
+
+  }
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+    ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type:  none;
+    }
+
+    ul.home-items a {
+        font-size: 1.9vmax;
+        color: rgb(21, 21, 21);
+    }
+
+    div.row.row-image-slide {
+        display: flex;
+        width: 100%;
+        height:75vh;
+        background-color: rgb(59, 59, 59);
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.col-image-slide > h1 {
+        font-size: 4.3vw;
+        margin-bottom: 2%;
+    }
+    
+    div.col-image-slide > p {
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+    div.col-image-slide > button {
+        font-weight: bold;
+        margin-top: 4%;
+        border-radius: 30px;
+        width: 17.3%;
+        height:  3.5vmax;
+        background-color: rgb(89, 150, 230);
+        border: none;
+        cursor: pointer;
+        font-size: 0.8vw;
+        color: white;
+    }
+
+    
+
+    div.row-provided-services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50vh;
+        background-color: rgb(240, 240, 240);
+    }
+
+    div.services-title > h1 {
+        font-size: 26px;
+    }
+
+    div.provided-services.item > h1 {
+        font-size: 1.6vmax;
+        margin-bottom: 12%;
+    }
+    div.provided-services.item > p {
+        font-size: 1.0vmax;
+        color: rgb(40, 40, 40);
+    }
+
+        
+        
+    div.row-contacts-us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 33vh;
+        background-color: rgb(238, 246, 248);
+        color: rgb(27, 27, 27);
+    }
+
+        
+    div.contacts-us > h1 {
+        height: 30%;
+        font-size: 2.5vw;
+    }
+
+    div.contacts-us > p {
+    color: rgb(78, 78, 78);
+    font-size: 1.6vw;
+    }
+
+
+
+}
+  
+  @media only screen and (max-width: 1500px) {
+   
+    ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type:  none;
+    }
+
+    ul.home-items a {
+        font-size: 1.5vmax;
+        color: rgb(21, 21, 21);
+    }
+
+    div.row.row-image-slide {
+        display: flex;
+        width: 100%;
+        height:70vh;
+        background-color: rgb(59, 59, 59);
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.col-image-slide > h1 {
+        font-size: 4.0vw;
+        margin-bottom: 2%;
+    }
+    
+    div.col-image-slide > p {
+        font-size: 1.6vw;
+        font-weight: bold;
+    }
+    
+
+    div.row-provided-services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 48vh;
+        background-color: rgb(240, 240, 240);
+    }
+
+    div.services-title > h1 {
+        font-size: 24px;
+    }
+
+    div.provided-services.item > h1 {
+        font-size: 1.4vmax;
+        margin-bottom: 10%;
+    }
+    div.provided-services.item > p {
+        font-size: 0.8vmax;
+        color: rgb(40, 40, 40);
+    }
+
+        
+        
+    div.row-contacts-us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 31vh;
+        background-color: rgb(238, 246, 248);
+        color: rgb(27, 27, 27);
+    }
+
+        
+    div.contacts-us > h1 {
+        height: 30%;
+        font-size: 2.3vw;
+    }
+
+    div.contacts-us > p {
+    color: rgb(78, 78, 78);
+    font-size: 1.4vw;
+    }
+
+
+  }
+
 
 
