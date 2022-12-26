@@ -25,7 +25,7 @@ div.row {
 nav {
     display: flex;
     width: 100%;
-    height: 7vh;
+    height: 70px;
     background-color: rgb(255, 255, 255);
     position: fixed;
     z-index: 10;
@@ -40,7 +40,7 @@ div.brand {
 }
 
 a.brand-name {
-    font-size: 1.5vmax;
+    font-size: calc(13px + 1vw);
     text-decoration: none;
     color: rgb(58, 176, 230);
 }
@@ -61,7 +61,7 @@ ul {
 
 
 ul.home-items a {
-    font-size: 1.3vmax;
+    font-size: calc(4px + 1vw);
     color: rgb(21, 21, 21);
 }
 
@@ -84,7 +84,7 @@ main {
 div.row.row-image-slide {
     display: flex;
     width: 100%;
-    height:90vh;
+    height:860px;
     background-color: rgb(59, 59, 59);
     align-items: center;
     justify-content: center;
@@ -101,12 +101,13 @@ div.col-image-slide {
 }
 
 div.col-image-slide > h1 {
-    font-size: 3.5vw;
+    font-size: calc(50px + 1vw);
+    text-align: center;
     margin-bottom: 2%;
 }
 
 div.col-image-slide > p {
-    font-size: 1.2vw;
+    font-size: calc(7px + 1vw);
     font-weight: bold;
 }
 
@@ -116,11 +117,11 @@ div.col-image-slide > button {
     margin-top: 4%;
     border-radius: 30px;
     width: 9.3%;
-    height:  3.5vmax;
+    height:  60px;
     background-color: rgb(89, 150, 230);
     border: none;
     cursor: pointer;
-    font-size: 0.8vw;
+    font-size: calc(9px + 1vw);
     color: white;
 }
 
@@ -136,7 +137,7 @@ div.row-provided-services {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 60vh;
+    height: 560px;
     background-color: rgb(240, 240, 240);
 }
 
@@ -161,7 +162,7 @@ div.services-title {
 }
 
 div.services-title  > h1{
-    font-size: 2.2vmax;
+    font-size: calc(25px + 1vw);
 }
 
 div.services-title  > i{
@@ -196,11 +197,12 @@ div.provided-services.item {
 }
 
 div.provided-services.item > h1 {
-    font-size: 1.3vmax;
+    font-size: calc(6px + 1vw);
+    text-align: center;
     margin-bottom: 10%;
 }
 div.provided-services.item > p {
-    font-size: 0.8vmax;
+    font-size: calc(0.2px + 0.9vw);
     color: rgb(40, 40, 40);
 }
 
@@ -210,10 +212,11 @@ div.row-contacts-us {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 44vh;
+    height: 412px;
     background-color: rgb(238, 246, 248);
     color: rgb(27, 27, 27);
 }
+
 div.col-contact-us {
     display: flex;
     width: inherit;
@@ -246,12 +249,12 @@ div.contacts-us {
 
 div.contacts-us > h1 {
     height: 30%;
-    font-size: 1.4vw;
+    font-size: calc(4px + 1vw);
 }
 
 div.contacts-us > p {
    color: rgb(78, 78, 78);
-   font-size: 1.0vw;
+   font-size: calc(0.2px + 1vw);
 }
 
 a.link-images {
@@ -281,7 +284,7 @@ div.contacts-us.item-two {
 footer {
     display: flex;
     width: 100%;
-    height: 10vh;
+    height: 93px;
     background-color: rgb(11, 10, 10);
 }
 
@@ -294,7 +297,7 @@ div.row-footer  {
 
 
 div.row-footer > p, a {
-    font-size: 1.2vmax;
+    font-size: calc(5px + 1vw);
 }
 
 div.row-footer > p {
@@ -309,7 +312,7 @@ a.designed-by {
 
 a.designed-by:hover {
   
-    font-size: 1.4vmax;
+    font-size: calc(7px + 1vw);
     cursor: pointer;
     transition: 0.2s;
 }
@@ -324,6 +327,7 @@ so basically if you add a zoom using a pc it's like changing the pc view to a ce
         visibility: hidden !important;
     }
 
+        
     ul {
         width: 100%;
         display: flex;
@@ -333,170 +337,145 @@ so basically if you add a zoom using a pc it's like changing the pc view to a ce
     }
 
     ul.home-items a {
-        font-size: 1.7vmax;
+        font-size: calc(9px + 1vw);
         color: rgb(21, 21, 21);
     }
     
-    div.row.row-image-slide {
-        display: flex;
-        width: 100%;
-        height:75vh;
-        background-color: rgb(59, 59, 59);
-        align-items: center;
-        justify-content: center;
-    }
 
-    div.col-image-slide > h1 {
-        font-size: 5.0vw;
-        margin-bottom: 2%;
-    }
-    
-    div.col-image-slide > p {
-        font-size: 1.8vw;
-        font-weight: bold;
-    }
-    
-    
-    div.col-image-slide > button {
-        font-weight: bold;
-        margin-top: 4%;
-        border-radius: 30px;
-        width: 20.3%;
-        height:  3.5vmax;
-        background-color: rgb(89, 150, 230);
-        border: none;
-        cursor: pointer;
-        font-size: 0.8vw;
-        color: white;
-    }
-
-
-    
-
-    div.row-provided-services {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 50vh;
-        background-color: rgb(240, 240, 240);
-    }
-
-    div.col-provided-services {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 60%;
-        width: inherit;
-        color: rgb(20, 20, 20);
-    }
-
-
-    div.provided-services-items {
-        display: flex;
-        flex-direction: row;
-        width: 95%;
-        align-items: center;
-        justify-content: center;
-        height: 70%;
-        flex-wrap: wrap;
-        overflow-wrap: break-word;
-    }
-
-    div.provided-services.item {
-        display: flex;
-        width: 30%;
-        flex-direction: column;
-        height: 100%;
-        align-items: center;
-        justify-content: center;
-        margin-right: 0.5%;
-        background-color: rgb(255, 255, 255);
-        flex-wrap: wrap;
-        overflow-wrap: break-word;
-        padding: 5%;
-    }
-        
-    div.provided-services.item > h1 {
-        font-size: 1.5vmax;
-        margin-bottom: 10%;
-    }
-    div.provided-services.item > p {
-        font-size: 0.9vmax;
-        color: rgb(40, 40, 40);
-    }
-
-
-    
-div.row-contacts-us {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 34vh;
-    background-color: rgb(238, 246, 248);
-    color: rgb(27, 27, 27);
-}
-div.col-contact-us {
-    display: flex;
-    width: inherit;
-    height: 70%;
-    flex-direction: column;
-    align-items: inherit;
-    justify-self: inherit;
-}
-
-div.contacts-us-items {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    height: inherit;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-div.contacts-us > h1 {
-    height: 30%;
-    font-size: 2.5vw;
-}
-
-div.contacts-us > p {
-   color: rgb(78, 78, 78);
-   font-size: 1.6vw;
-}
-
-a.link-images {
-    width: 50%;
-    height: 40%;
-    text-align: center;
-    cursor: pointer;
-}
-
-a.link-images:hover {
-   transform: translateY(2px);
-   transition: 0.6s;
-  
-}
-
-img.contacts-logo {
-    width: 50%;
-    height: 90%;
-}
-
-  }
-
-
-
- @media only screen and (max-width: 500px) {
     /* For mobile phones: */
     div.brand {
         display: none !important;
         visibility: hidden !important;
     }
 
+    div.row.row-image-slide {
+        display: flex;
+        width: 100%;
+        height:650px;
+        background-color: rgb(59, 59, 59);
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+        
+    div.col-image-slide > h1 {
+        font-size: calc(45px + 1vw);
+        text-align: center;
+        margin-bottom: 3%;
+    }
+
+    div.col-image-slide > p {
+        font-size: calc(8px + 1vw);
+        font-weight: bold;
+    }
+
+
+    div.col-image-slide > button {
+        font-weight: bold;
+        margin-top: 4%;
+        border-radius: 30px;
+        width: 25.3%;
+        height:  45px;
+        background-color: rgb(89, 150, 230);
+        border: none;
+        cursor: pointer;
+        font-size: calc(9px + 1vw);
+        color: white;
+    }
+    
+
+    div.row-provided-services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(240, 240, 240);
+    }
+
+    div.provided-services-items {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 54%;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    }
+    
+    
+    div.services-title  > i{
+        border: 1px solid rgb(89, 150, 230);
+        width: 10%;
+    }
+    
+        
+    div.provided-services.item {
+        display: flex;
+        width: 29%;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0.2%;
+        background-color: rgb(255, 255, 255);
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+        padding: 5%;
+    }
+
+    div.provided-services.item > h1 {
+        font-size: calc(8px + 1vw);
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    div.provided-services.item > p {
+        font-size: calc(1.3px + 0.9vw);
+        color: rgb(40, 40, 40);
+    }
+
+
+        
+    div.row-contacts-us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 330px;
+        background-color: rgb(238, 246, 248);
+        color: rgb(27, 27, 27);
+    }
+
+    
+    div.contacts-us-items {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: inherit;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.contacts-us > h1 {
+        height: 30%;
+        font-size: calc(8px + 1vw);
+    }
+
+    div.contacts-us > p {
+    color: rgb(78, 78, 78);
+    font-size: calc(1px + 1vw);
+    }
+
+
+  }
+
+
+@media only screen and (max-width: 1000px) {
+   
+ 
+        
     ul {
         width: 100%;
         display: flex;
@@ -506,44 +485,46 @@ img.contacts-logo {
     }
 
     ul.home-items a {
-        font-size: 1.7vmax;
+        font-size: calc(9px + 1vw);
         color: rgb(21, 21, 21);
     }
     
+
     div.row.row-image-slide {
         display: flex;
         width: 100%;
-        height:75vh;
+        height:660px;
         background-color: rgb(59, 59, 59);
         align-items: center;
         justify-content: center;
     }
-
-    div.col-image-slide > h1 {
-        font-size: 5.0vw;
-        margin-bottom: 2%;
-    }
     
+
+        
+    div.col-image-slide > h1 {
+        font-size: calc(42px + 1vw);
+        text-align: center;
+        margin-bottom: 3%;
+    }
+
     div.col-image-slide > p {
-        font-size: 1.8vw;
+        font-size: calc(6px + 1vw);
         font-weight: bold;
     }
-    
-    
+
+
     div.col-image-slide > button {
         font-weight: bold;
         margin-top: 4%;
         border-radius: 30px;
         width: 20.3%;
-        height:  3.5vmax;
+        height:  45px;
         background-color: rgb(89, 150, 230);
         border: none;
         cursor: pointer;
-        font-size: 0.8vw;
+        font-size: calc(9px + 1vw);
         color: white;
     }
-
-
     
 
     div.row-provided-services {
@@ -551,299 +532,389 @@ img.contacts-logo {
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 50vh;
+        height: 430px;
         background-color: rgb(240, 240, 240);
     }
-
-    div.col-provided-services {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 60%;
-        width: inherit;
-        color: rgb(20, 20, 20);
-    }
-
 
     div.provided-services-items {
         display: flex;
         flex-direction: row;
-        width: 95%;
+        width: 90%;
         align-items: center;
         justify-content: center;
         height: 70%;
         flex-wrap: wrap;
         overflow-wrap: break-word;
     }
-
+    
+    
+    div.services-title  > i{
+        border: 1px solid rgb(89, 150, 230);
+        width: 10%;
+    }
+    
+        
     div.provided-services.item {
         display: flex;
-        width: 30%;
+        width: 29%;
         flex-direction: column;
         height: 100%;
         align-items: center;
         justify-content: center;
-        margin-right: 0.5%;
+        margin-right: 0.2%;
         background-color: rgb(255, 255, 255);
         flex-wrap: wrap;
         overflow-wrap: break-word;
         padding: 5%;
     }
-        
+
     div.provided-services.item > h1 {
-        font-size: 1.5vmax;
+        font-size: calc(7px + 1vw);
+        text-align: center;
         margin-bottom: 10%;
     }
     div.provided-services.item > p {
-        font-size: 0.9vmax;
+        font-size: calc(1.0px + 0.9vw);
         color: rgb(40, 40, 40);
     }
 
 
-    
-div.row-contacts-us {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 34vh;
-    background-color: rgb(238, 246, 248);
-    color: rgb(27, 27, 27);
-}
-div.col-contact-us {
-    display: flex;
-    width: inherit;
-    height: 70%;
-    flex-direction: column;
-    align-items: inherit;
-    justify-self: inherit;
-}
-
-div.contacts-us-items {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    height: inherit;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-div.contacts-us > h1 {
-    height: 30%;
-    font-size: 2.5vw;
-}
-
-div.contacts-us > p {
-   color: rgb(78, 78, 78);
-   font-size: 1.6vw;
-}
-
-a.link-images {
-    width: 50%;
-    height: 40%;
-    text-align: center;
-    cursor: pointer;
-}
-
-a.link-images:hover {
-   transform: translateY(2px);
-   transition: 0.6s;
-  
-}
-
-img.contacts-logo {
-    width: 50%;
-    height: 90%;
-}
-
-  }
-
-
-
-@media only screen and (max-width: 1000px) {
-
-
-    ul {
-        width: 100%;
+        
+    div.row-contacts-us {
         display: flex;
         align-items: center;
         justify-content: center;
-        list-style-type:  none;
+        width: 100%;
+        height: 350px;
+        background-color: rgb(238, 246, 248);
+        color: rgb(27, 27, 27);
     }
 
+    
+    div.contacts-us-items {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        height: inherit;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.contacts-us > h1 {
+        height: 30%;
+        font-size: calc(8px + 1vw);
+    }
+
+    div.contacts-us > p {
+    color: rgb(78, 78, 78);
+    font-size: calc(1.5px + 1vw);
+    }
+
+}
+
+
+@media only screen and (min-width: 2200px) {
+
+        
+    nav {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        z-index: 10;
+    }
+
+    a.brand-name {
+        font-size: calc(8px + 1vw);
+        text-decoration: none;
+        color: rgb(58, 176, 230);
+    }
+
+        
     ul.home-items a {
-        font-size: 1.9vmax;
+        font-size: calc(2px + 1vw);
         color: rgb(21, 21, 21);
     }
+
 
     div.row.row-image-slide {
         display: flex;
         width: 100%;
-        height:75vh;
+        height:980px;
         background-color: rgb(59, 59, 59);
         align-items: center;
         justify-content: center;
     }
 
+
     div.col-image-slide > h1 {
-        font-size: 4.3vw;
+        font-size: calc(45px + 1vw);
+        text-align: center;
         margin-bottom: 2%;
     }
     
     div.col-image-slide > p {
-        font-size: 1.8vw;
+        font-size: calc(4px + 1vw);
         font-weight: bold;
     }
 
+
+        
     div.col-image-slide > button {
         font-weight: bold;
         margin-top: 4%;
         border-radius: 30px;
-        width: 17.3%;
-        height:  3.5vmax;
+        width: 9.3%;
+        height:  50px;
         background-color: rgb(89, 150, 230);
         border: none;
         cursor: pointer;
-        font-size: 0.8vw;
+        font-size: calc(4px + 0.4vw);
         color: white;
     }
-
-    
 
     div.row-provided-services {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 50vh;
+        height: 720px;
         background-color: rgb(240, 240, 240);
     }
-
-    div.services-title > h1 {
-        font-size: 26px;
+    div.services-title  > h1{
+        font-size: calc(22px + 1vw);
     }
+
 
     div.provided-services.item > h1 {
-        font-size: 1.6vmax;
-        margin-bottom: 12%;
+        font-size: calc(4px + 1vw);
+        text-align: center;
+        margin-bottom: 10%;
     }
     div.provided-services.item > p {
-        font-size: 1.0vmax;
+        font-size: calc(0.2px + 0.7vw);
         color: rgb(40, 40, 40);
     }
+    
+    
+    
 
-        
-        
     div.row-contacts-us {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 33vh;
+        height: 522px;
         background-color: rgb(238, 246, 248);
         color: rgb(27, 27, 27);
     }
+        
+}
+
+
+
+
+@media only screen and (min-width: 3200px) {
 
         
-    div.contacts-us > h1 {
-        height: 30%;
-        font-size: 2.5vw;
-    }
-
-    div.contacts-us > p {
-    color: rgb(78, 78, 78);
-    font-size: 1.6vw;
-    }
-
-
-
-}
-  
-  @media only screen and (max-width: 1500px) {
-   
-    ul {
-        width: 100%;
+    nav {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style-type:  none;
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        z-index: 10;
     }
 
+    a.brand-name {
+        font-size: calc(7px + 1vw);
+        text-decoration: none;
+        color: rgb(58, 176, 230);
+    }
+
+        
     ul.home-items a {
-        font-size: 1.5vmax;
+        font-size: calc(1px + 1vw);
         color: rgb(21, 21, 21);
     }
+
 
     div.row.row-image-slide {
         display: flex;
         width: 100%;
-        height:70vh;
+        height:1100px;
         background-color: rgb(59, 59, 59);
         align-items: center;
         justify-content: center;
     }
 
+
     div.col-image-slide > h1 {
-        font-size: 4.0vw;
+        font-size: calc(40px + 1vw);
+        text-align: center;
         margin-bottom: 2%;
     }
     
     div.col-image-slide > p {
-        font-size: 1.6vw;
+        font-size: calc(3px + 1vw);
         font-weight: bold;
     }
-    
+
+
+        
+    div.col-image-slide > button {
+        font-weight: bold;
+        margin-top: 4%;
+        border-radius: 30px;
+        width: 9.3%;
+        height:  64px;
+        background-color: rgb(89, 150, 230);
+        border: none;
+        cursor: pointer;
+        font-size: calc(4px + 0.4vw);
+        color: white;
+    }
 
     div.row-provided-services {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 48vh;
+        height: 1020px;
         background-color: rgb(240, 240, 240);
     }
 
-    div.services-title > h1 {
-        font-size: 24px;
+    
+    div.services-title  > h1{
+        font-size: calc(20px + 1vw);
     }
 
+
     div.provided-services.item > h1 {
-        font-size: 1.4vmax;
+        font-size: calc(3px + 1vw);
+        text-align: center;
         margin-bottom: 10%;
     }
     div.provided-services.item > p {
-        font-size: 0.8vmax;
+        font-size: calc(0.1px + 0.7vw);
         color: rgb(40, 40, 40);
     }
+    
+    
+    
 
-        
-        
     div.row-contacts-us {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 31vh;
+        height: 622px;
         background-color: rgb(238, 246, 248);
         color: rgb(27, 27, 27);
     }
+        
+}
+
+
+
+
+@media only screen and (min-width: 4200px) {
+
+    nav {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        z-index: 10;
+    }
+
+    a.brand-name {
+        font-size: calc(7px + 1vw);
+        text-decoration: none;
+        color: rgb(58, 176, 230);
+    }
 
         
-    div.contacts-us > h1 {
-        height: 30%;
-        font-size: 2.3vw;
-    }
-
-    div.contacts-us > p {
-    color: rgb(78, 78, 78);
-    font-size: 1.4vw;
+    ul.home-items a {
+        font-size: calc(1px + 1vw);
+        color: rgb(21, 21, 21);
     }
 
 
-  }
+    div.row.row-image-slide {
+        display: flex;
+        width: 100%;
+        height:1600px;
+        background-color: rgb(59, 59, 59);
+        align-items: center;
+        justify-content: center;
+    }
 
 
+    div.col-image-slide > h1 {
+        font-size: calc(40px + 1vw);
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    
+    div.col-image-slide > p {
+        font-size: calc(1px + 0.7vw);
+        font-weight: bold;
+    }
 
+
+        
+    div.col-image-slide > button {
+        font-weight: bold;
+        margin-top: 4%;
+        border-radius: 30px;
+        width: 9.3%;
+        height:  100px;
+        background-color: rgb(89, 150, 230);
+        border: none;
+        cursor: pointer;
+        font-size: calc(2px + 0.2vw);
+        color: white;
+    }
+
+    div.row-provided-services {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 1420px;
+        background-color: rgb(240, 240, 240);
+    }
+
+    
+    div.services-title  > h1{
+        font-size: calc(20px + 1vw);
+    }
+
+
+    div.provided-services.item > h1 {
+        font-size: calc(1px + 0.7vw);
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    div.provided-services.item > p {
+        font-size: calc(0.1px + 0.6vw);
+        color: rgb(40, 40, 40);
+    }
+    
+    
+    
+
+    div.row-contacts-us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 922px;
+        background-color: rgb(238, 246, 248);
+        color: rgb(27, 27, 27);
+    }
+        
+}
