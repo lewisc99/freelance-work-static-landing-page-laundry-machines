@@ -1,10 +1,3 @@
-﻿<style>
-div.link {display:flex;
-           justify-content:center;
-           flex-direction:column;
-            align-items:center;
-    }
-</style>
 <h1>Security Landpage Using HTML 5 and CSS</h1> <br/>
 </h4>
 <div class="link">
